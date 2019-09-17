@@ -10,7 +10,7 @@ const Url = require('../models/Urls');
 
 router.post('/shorten', async (req, res) => {
   const { longUrl } = req.body;
-  const baseUrl = "https://getminiurl.herokuapp.com/";
+  const baseUrl = "https://getminiurl.herokuapp.com";
 
   
   if (!validUrl.isUri(baseUrl)) {
