@@ -15,32 +15,39 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src ="./main.js"></script>
+<script src ="main.js"></script>
 </head>
-<body class="">
-        
-    <div class="  fixed" >
-        
+<body class="bg-dark">
+   <div class="container text-white">
+   	<div class="row">
+   		<div class="d-none d-lg-block col-sm-12">
+   			<div style="padding:50px"></div>
+   		</div>
+   		<div class="col-lg-6 col-sm-12 " style="padding-top:8%">
+   			<h1 class=" display-2 d-lg-block d-none">Url shortner</h1>
+   			<h1 class=" display-4 d-block d-lg-none">Url shortner</h1>
+   		</div>
+   		<div class="col-lg-6 col-sm-12 mt-5">
 
-            <div class=" d-flex align-items-center flex-lg-row justify-content-around flex-column bg-dark" style="height:100vh;">
-             <div class=" p-1 ">
-                   <h1 class=" text-white display-1">Url-shortner</h1> 
-             </div>    
-             <div class="text-white p-2  col-lg-6 col-sm-12 " style="border:4px solid white">
-                    <form id="url-shortner">
+
+   			<form id="url-shortner">
                         <div class="form-group">
                           <label for="longUrl">Your Url:</label>
-                          <input type="url" class="form-control" id="url">
+                          <input type="url" class="form-control" id="url" placeholder="Put url here">
                         </div>
+                        
                         <div class="form-group">
                           <label for="url">Short Url</label>
                           <input type="url" class="form-control" id="shorturl" readonly>
                         </div>
                         
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button  class="btn btn-primary">Submit</button>
                       </form>
-             </div>
-        </div></div>
-    </div>
+
+   		</div>
+   </div>
 </body>
 </html>
+
+
+ 
